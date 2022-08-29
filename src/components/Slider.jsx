@@ -8,7 +8,7 @@ export const SliderItem = ({ children, width }) => {
   return (
     <>
       <div
-        className="inline-flex items-center justify-center h-[300px] md:h-[600px] bg-[#D9D9D9] text-white md:py-8"
+        className="inline-flex items-center justify-center h-[300px] md:h-[300px] lg-[600px] bg-[#D9D9D9] text-white md:py-8 "
         style={{ width: width }}
       >
         {children}

@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav>
       <div
         className="w-full p-5 left-0 top-0 bg-[#D9D9D9] 
-       md:bg-[#ffff] md:w-[100%] md:px-16"
+       md:bg-[#ffff] md:w-[100%] md:px-[6rem]"
       >
         <div className=" w-full ">
           <div className="flex justify-between items-center ">
