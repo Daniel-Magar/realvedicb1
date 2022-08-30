@@ -5,6 +5,8 @@ import SliderWrapper from "../components/SliderWrapper";
 import Menu from "../components/Menu";
 import ShopByCategory from "../components/ShopByCategory";
 import BestSeller from "../components/BestSeller";
+import ConsultStory from "../components/ConsultStory";
+import Team from "../components/Team";
 
 const Main = () => {
   return (
@@ -15,6 +17,8 @@ const Main = () => {
       <SliderWrapper />
       <ShopByCategory />
       <BestSeller />
+      <ConsultStory />
+      <Team />
     </div>
   );
 };

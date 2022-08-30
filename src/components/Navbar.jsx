@@ -7,10 +7,10 @@ import LogoFull from "../images/LogoFull.png";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="bg-[#D9D9D9] lg:bg-[#ffffff]">
       <div
-        className="w-full p-5 left-0 top-0 bg-[#D9D9D9] 
-       md:bg-[#ffff] md:w-[100%] md:px-[6rem]"
+        className="w-full p-5 left-0 top-0
+        md:w-[100%] md:px-[6rem]"
       >
         <div className=" w-full ">
           <div className="flex justify-between items-center ">

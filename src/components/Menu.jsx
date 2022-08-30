@@ -40,7 +40,7 @@ const Menu = () => {
           <img
             src={Menu3}
             alt="menu3"
-            className="md:w-[25px] md:h-[25px] w-[40px] h-[40px]"
+            className="md:w-[25px] md:h-[25px] w-[40px] h-[40px] lg:w-[30px] lg:h-[35px]"
           />
           <h1 className="text-[20px] md:text-[14px]  lg:text-[18px] font-semibold">
             Products
@@ -50,14 +50,18 @@ const Menu = () => {
           <img
             src={Menu4}
             alt="menu4"
-            className="md:w-[25px] md:h-[25px] w-[40px] h-[40px]"
+            className="md:w-[25px] md:h-[25px] w-[40px] h-[40px] lg:w-[30px] lg:h-[30px]"
           />
           <h1 className="text-[20px] md:text-[14px] lg:text-[18px]  font-semibold">
             Pharma
           </h1>
         </div>
         <div className="flex flex-col justify-center items-center  text-center">
-          <img src={Menu5} alt="menu5" className="w-[40px] h-[40px]" />
+          <img
+            src={Menu5}
+            alt="menu5"
+            className="md:w-[25px] md:h-[25px] w-[40px] h-[40px] lg:w-[30px] lg:h-[35px]"
+          />
           <h1 className="text-[20px] md:text-[14px]  lg:text-[18px]  font-semibold">
             Doctors
           </h1>

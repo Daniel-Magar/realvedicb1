@@ -35,24 +35,28 @@ const BestSeller = () => {
                   </div>
                   <div className="flex justify-between text-left my-2">
                     <div>
-                      <h1 className="text-[12px] font-semibold leading-3">
+                      <h1 className="text-[12px] font-semibold leading-3 lg:text-[18px]">
                         Garlic Rasam Powder | Instant Mix
                       </h1>
                     </div>
                     <div className="bg-[#D9D9D9] flex text-center items-center">
-                      <h1 className="text-[10px] font-semibold p-1">250gm</h1>
+                      <h1 className="text-[10px] font-semibold p-1 lg:text-[18px]">
+                        250gm
+                      </h1>
                     </div>
                   </div>
                   <div className="flex justify-between text-left my-2">
                     <div></div>
                     <div>
-                      <h1 className="text-[10px]">Rs. 110.00</h1>
+                      <h1 className="text-[10px] lg:text-[20px]">Rs. 110.00</h1>
                     </div>
                   </div>
                   <div className="flex justify-between items-center text-center my-2">
                     <div className=""></div>
-                    <div className="bg-[#D9D9D9] p-1 w-[8rem]">
-                      <h1 className="text-[10px] font-semibold">ADD TO CART</h1>
+                    <div className="bg-[#D9D9D9] p-1 w-[8rem] lg:w-[10rem]">
+                      <h1 className="text-[10px] font-semibold lg:text-[18px]">
+                        ADD TO CART
+                      </h1>
                     </div>
                   </div>
                 </div>
@@ -65,24 +69,28 @@ const BestSeller = () => {
                   </div>
                   <div className="flex justify-between text-left my-2">
                     <div>
-                      <h1 className="text-[12px] font-semibold leading-3">
+                      <h1 className="text-[12px] font-semibold leading-3 lg:text-[18px]">
                         Garlic Rasam Powder | Instant Mix
                       </h1>
                     </div>
                     <div className="bg-[#D9D9D9] flex text-center items-center">
-                      <h1 className="text-[10px] font-semibold p-1">250gm</h1>
+                      <h1 className="text-[10px] font-semibold p-1 lg:text-[18px]">
+                        250gm
+                      </h1>
                     </div>
                   </div>
                   <div className="flex justify-between text-left my-2">
                     <div></div>
                     <div>
-                      <h1 className="text-[10px]">Rs. 110.00</h1>
+                      <h1 className="text-[10px] lg:text-[20px]">Rs. 110.00</h1>
                     </div>
                   </div>
                   <div className="flex justify-between items-center text-center my-2">
                     <div className=""></div>
-                    <div className="bg-[#D9D9D9] p-1 w-[8rem]">
-                      <h1 className="text-[10px] font-semibold">ADD TO CART</h1>
+                    <div className="bg-[#D9D9D9] p-1 w-[8rem] lg:w-[10rem]">
+                      <h1 className="text-[10px] font-semibold lg:text-[18px]">
+                        ADD TO CART
+                      </h1>
                     </div>
                   </div>
                 </div>
@@ -94,29 +102,33 @@ const BestSeller = () => {
                   </div>
                   <div className="flex justify-between text-left my-2">
                     <div>
-                      <h1 className="text-[12px] font-semibold leading-3">
+                      <h1 className="text-[12px] font-semibold leading-3 lg:text-[18px]">
                         Garlic Rasam Powder | Instant Mix
                       </h1>
                     </div>
                     <div className="bg-[#D9D9D9] flex text-center items-center">
-                      <h1 className="text-[10px] font-semibold p-1">250gm</h1>
+                      <h1 className="text-[10px] font-semibold p-1 lg:text-[18px]">
+                        250gm
+                      </h1>
                     </div>
                   </div>
                   <div className="flex justify-between text-left my-2">
                     <div></div>
                     <div>
-                      <h1 className="text-[10px]">Rs. 110.00</h1>
+                      <h1 className="text-[10px] lg:text-[20px]">Rs. 110.00</h1>
                     </div>
                   </div>
                   <div className="flex justify-between items-center text-center my-2">
                     <div className=""></div>
-                    <div className="bg-[#D9D9D9] p-1 w-[8rem]">
-                      <h1 className="text-[10px] font-semibold">ADD TO CART</h1>
+                    <div className="bg-[#D9D9D9] p-1 w-[8rem] lg:w-[10rem]">
+                      <h1 className="text-[10px] font-semibold lg:text-[18px]">
+                        ADD TO CART
+                      </h1>
                     </div>
                   </div>
                 </div>
 
-                <div className="">
+                <div className="lg:hidden">
                   <div className="text-[12px] text-center bg-[#D9D9D9] p-5 flex-1 ">
                     <div className="max-w-full min-w-[100%] min-h-[auto] py-10 md:p-[7rem] lg:p-[10rem] flex justify-center items-center">
                       <img src={demoimg} alt="demo" className="border" />
@@ -124,24 +136,28 @@ const BestSeller = () => {
                   </div>
                   <div className="flex justify-between text-left my-2">
                     <div>
-                      <h1 className="text-[12px] font-semibold leading-3">
+                      <h1 className="text-[12px] font-semibold leading-3 lg:text-[18px]">
                         Garlic Rasam Powder | Instant Mix
                       </h1>
                     </div>
                     <div className="bg-[#D9D9D9] flex text-center items-center">
-                      <h1 className="text-[10px] font-semibold p-1">250gm</h1>
+                      <h1 className="text-[10px] font-semibold p-1 lg:text-[18px]">
+                        250gm
+                      </h1>
                     </div>
                   </div>
                   <div className="flex justify-between text-left my-2">
                     <div></div>
                     <div>
-                      <h1 className="text-[10px]">Rs. 110.00</h1>
+                      <h1 className="text-[10px] lg:text-[18px]">Rs. 110.00</h1>
                     </div>
                   </div>
                   <div className="flex justify-between items-center text-center my-2">
                     <div className=""></div>
-                    <div className="bg-[#D9D9D9] p-1 w-[8rem]">
-                      <h1 className="text-[10px] font-semibold">ADD TO CART</h1>
+                    <div className="bg-[#D9D9D9] p-1 w-[8rem] lg:w-[10rem]">
+                      <h1 className="text-[10px] font-semibold lg:text-[18px]">
+                        ADD TO CART
+                      </h1>
                     </div>
                   </div>
                 </div>

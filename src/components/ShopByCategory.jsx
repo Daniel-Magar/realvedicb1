@@ -21,8 +21,8 @@ const ShopByCategory = () => {
           </div>
         </div>
       </section>
-      <section className=" bg-[#ffffff]">
-        <div className=" my-1 md:grid md:grid-flow-row md:grid-cols-3 md:mx-[6rem] lg:grid-cols-5">
+      <section>
+        <div className=" my-1 md:grid md:grid-flow-row md:grid-cols-3 md:mx-[6rem] lg:grid-cols-5 gap-2">
           <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px] ">
             <div className="mx-8 md:mx-[6rem] py-5">
               <h1 className="text-[14px] md:text-[18px]  font-semibold">
