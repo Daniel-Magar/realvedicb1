@@ -9,12 +9,12 @@ const ShopByCategory = () => {
         <div>
           <div className="flex justify-between items-center py-5 mx-[2rem]  md:mx-[6rem] ">
             <div>
-              <h1 className="text-[18px] md:text-[18px]  font-semibold">
+              <h1 className="text-[18px] md:text-[18px] lg:text-[22px]  font-semibold">
                 Shop By Category
               </h1>
             </div>
             <div>
-              <h1 className="text-[14px] md:text-[18px]  font-normal md:font-semibold">
+              <h1 className="text-[14px] md:text-[18px] lg:text-[22px]   font-normal md:font-semibold">
                 View All
               </h1>
             </div>
@@ -23,9 +23,9 @@ const ShopByCategory = () => {
       </section>
       <section>
         <div className=" my-1 md:grid md:grid-flow-row md:grid-cols-3 md:mx-[6rem] lg:grid-cols-5 gap-2">
-          <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px] ">
-            <div className="mx-8 md:mx-[6rem] py-5">
-              <h1 className="text-[14px] md:text-[18px]  font-semibold">
+          <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px]">
+            <div className="mx-8  py-5 lg:py-[2rem]">
+              <h1 className="text-[14px] md:text-[18px] lg:text-left  font-semibold">
                 Spice Blend
               </h1>
               <span className="md:hidden text-[12px]">View All</span>
@@ -33,7 +33,7 @@ const ShopByCategory = () => {
           </div>
 
           <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px]  ">
-            <div className="mx-8 md:mx-[6rem] py-5">
+            <div className="mx-8 py-5 lg:py-[2rem]">
               <h1 className="text-[14px] md:text-[18px]  font-semibold">
                 Flour Packs
               </h1>
@@ -41,7 +41,7 @@ const ShopByCategory = () => {
             </div>
           </div>
           <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px]">
-            <div className="mx-8 md:mx-[6rem] py-5">
+            <div className="mx-8  py-5 lg:py-[2rem]">
               <h1 className="text-[14px] md:text-[18px]  font-semibold">
                 Dosa Mix
               </h1>
@@ -49,7 +49,7 @@ const ShopByCategory = () => {
             </div>
           </div>
           <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px] ">
-            <div className="mx-8 md:mx-[6rem] py-5">
+            <div className="mx-8 py-5 lg:py-[2rem]">
               <h1 className="text-[14px] md:text-[18px]  font-semibold">
                 Dosa Mix
               </h1>
@@ -57,7 +57,7 @@ const ShopByCategory = () => {
             </div>
           </div>
           <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px]  ">
-            <div className="mx-8 md:mx-[6rem] py-5">
+            <div className="mx-8  py-5 lg:py-[2rem]">
               <h1 className="text-[14px] md:text-[18px]  font-semibold">
                 Dosa Mix
               </h1>
@@ -65,7 +65,7 @@ const ShopByCategory = () => {
             </div>
           </div>
           <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px] ">
-            <div className="mx-8 md:mx-[6rem] py-5">
+            <div className="mx-8 py-5 lg:py-[2rem]">
               <h1 className="text-[14px] md:text-[18px]  font-semibold">
                 Spice Blend
               </h1>
@@ -73,7 +73,7 @@ const ShopByCategory = () => {
             </div>
           </div>
           <div className="bg-[#D9D9D9] my-1 md:border md:rounded-[20px] ">
-            <div className="mx-8 md:mx-[6rem] py-5">
+            <div className="mx-8 py-5 lg:py-[2rem]">
               <div className="md:flex md:flex-wrap md:items-center md:justify-between gap:2 lg:flex lg:flex-wrap lg:items-center lg:justify-between">
                 <h1 className="text-[14px] md:text-[18px]  font-semibold">
                   Spice Blend
@@ -84,13 +84,13 @@ const ShopByCategory = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#F3F3F3] my-1 md:border md:rounded-[20px] ">
-            <div className="mx-8 md:mx-[6rem] py-5">
+          <div className="bg-[#F3F3F3] lg:bg-[#D9D9D9] my-1 md:border md:rounded-[20px] ">
+            <div className="mx-8  py-5 lg:py-[2rem]">
               <div className="flex flex-wrap items-center justify-between">
                 <h1 className="text-[14px] md:text-[18px]  font-semibold">
                   Shop All
                 </h1>
-                <div className="md:hidden text-[12px]">
+                <div className=" text-[12px]">
                   <img src={ArightSm} alt="" />
                 </div>
               </div>

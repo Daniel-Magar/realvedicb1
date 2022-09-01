@@ -6,7 +6,7 @@ import ArightSm from "../images/ArightSm.png";
 const BestSeller = () => {
   return (
     <>
-      <section>
+      <section className="lg:bg-[#E5E5E5;]">
         <div className="py-1">
           <div className="flex justify-between items-center py-5 mx-[2rem]  md:mx-[6rem] ">
             <div>
@@ -29,11 +29,11 @@ const BestSeller = () => {
               <div className="grid grid-flow-row grid-cols-2 md:grid md:grid-flow-row md:grid-cols-3 flex-wrap gap-2 items-center justify-between text-center my-2">
                 <div className="">
                   <div className="text-[12px] text-center bg-[#D9D9D9] p-5  flex-1 ">
-                    <div className="max-w-full min-w-[100%] min-h-[auto]  md:min-h-[auto] py-10 md:p-[7rem] lg:p-[10rem] flex justify-center items-center">
+                    <div className="max-w-full min-w-[100%] min-h-[auto]  md:min-h-[auto] py-10 md:p-[7rem] lg:p-[12rem] flex justify-center items-center">
                       <img src={demoimg} alt="demo" className="border" />
                     </div>
                   </div>
-                  <div className="flex justify-between text-left my-2">
+                  <div className="flex justify-between text-left my-2 lg:my-5">
                     <div>
                       <h1 className="text-[12px] font-semibold leading-3 lg:text-[18px]">
                         Garlic Rasam Powder | Instant Mix
@@ -45,13 +45,13 @@ const BestSeller = () => {
                       </h1>
                     </div>
                   </div>
-                  <div className="flex justify-between text-left my-2">
+                  <div className="flex justify-between text-left my-2 lg:my-5">
                     <div></div>
                     <div>
                       <h1 className="text-[10px] lg:text-[20px]">Rs. 110.00</h1>
                     </div>
                   </div>
-                  <div className="flex justify-between items-center text-center my-2">
+                  <div className="flex justify-between items-center text-center my-2 lg:my-5">
                     <div className=""></div>
                     <div className="bg-[#D9D9D9] p-1 w-[8rem] lg:w-[10rem]">
                       <h1 className="text-[10px] font-semibold lg:text-[18px]">
@@ -63,11 +63,11 @@ const BestSeller = () => {
 
                 <div className="">
                   <div className="text-[12px] text-center bg-[#D9D9D9] p-5 flex-1 ">
-                    <div className="max-w-full min-w-[100%] min-h-[auto] py-10 md:p-[7rem] lg:p-[10rem] flex justify-center items-center">
+                    <div className="max-w-full min-w-[100%] min-h-[auto] py-10 md:p-[7rem] lg:p-[12rem] flex justify-center items-center">
                       <img src={demoimg} alt="demo" className="border" />
                     </div>
                   </div>
-                  <div className="flex justify-between text-left my-2">
+                  <div className="flex justify-between text-left my-2 lg:my-5">
                     <div>
                       <h1 className="text-[12px] font-semibold leading-3 lg:text-[18px]">
                         Garlic Rasam Powder | Instant Mix
@@ -79,13 +79,13 @@ const BestSeller = () => {
                       </h1>
                     </div>
                   </div>
-                  <div className="flex justify-between text-left my-2">
+                  <div className="flex justify-between text-left my-2 lg:my-5">
                     <div></div>
                     <div>
                       <h1 className="text-[10px] lg:text-[20px]">Rs. 110.00</h1>
                     </div>
                   </div>
-                  <div className="flex justify-between items-center text-center my-2">
+                  <div className="flex justify-between items-center text-center my-2 lg:my-5">
                     <div className=""></div>
                     <div className="bg-[#D9D9D9] p-1 w-[8rem] lg:w-[10rem]">
                       <h1 className="text-[10px] font-semibold lg:text-[18px]">
@@ -96,11 +96,11 @@ const BestSeller = () => {
                 </div>
                 <div className="">
                   <div className="text-[12px] text-center bg-[#D9D9D9] p-5 flex-1 ">
-                    <div className="max-w-full min-w-[100%] min-h-[auto] py-10 md:p-[7rem] lg:p-[10rem] flex justify-center items-center">
+                    <div className="max-w-full min-w-[100%] min-h-[auto] py-10 md:p-[7rem] lg:p-[12rem] flex justify-center items-center">
                       <img src={demoimg} alt="demo" className="border" />
                     </div>
                   </div>
-                  <div className="flex justify-between text-left my-2">
+                  <div className="flex justify-between text-left my-2 lg:my-5">
                     <div>
                       <h1 className="text-[12px] font-semibold leading-3 lg:text-[18px]">
                         Garlic Rasam Powder | Instant Mix
@@ -112,13 +112,13 @@ const BestSeller = () => {
                       </h1>
                     </div>
                   </div>
-                  <div className="flex justify-between text-left my-2">
+                  <div className="flex justify-between text-left my-2 lg:my-5">
                     <div></div>
                     <div>
                       <h1 className="text-[10px] lg:text-[20px]">Rs. 110.00</h1>
                     </div>
                   </div>
-                  <div className="flex justify-between items-center text-center my-2">
+                  <div className="flex justify-between items-center text-center my-2 lg:my-5">
                     <div className=""></div>
                     <div className="bg-[#D9D9D9] p-1 w-[8rem] lg:w-[10rem]">
                       <h1 className="text-[10px] font-semibold lg:text-[18px]">
@@ -134,7 +134,7 @@ const BestSeller = () => {
                       <img src={demoimg} alt="demo" className="border" />
                     </div>
                   </div>
-                  <div className="flex justify-between text-left my-2">
+                  <div className="flex justify-between text-left my-2 lg:my-8 lg:my-5">
                     <div>
                       <h1 className="text-[12px] font-semibold leading-3 lg:text-[18px]">
                         Garlic Rasam Powder | Instant Mix
@@ -146,7 +146,7 @@ const BestSeller = () => {
                       </h1>
                     </div>
                   </div>
-                  <div className="flex justify-between text-left my-2">
+                  <div className="flex justify-between text-left my-2 lg:my-5">
                     <div></div>
                     <div>
                       <h1 className="text-[10px] lg:text-[18px]">Rs. 110.00</h1>
@@ -163,6 +163,16 @@ const BestSeller = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="lg:my-[4rem]">
+          <div className="flex flex-wrap justify-center items-center mx-8 lg:mx-[6rem] ">
+            <a
+              href="#"
+              className="lg:bg-[#D9D9D9] lg:p-4 lg:text-[20px] font-semibold"
+            >
+              View All
+            </a>
           </div>
         </div>
       </section>

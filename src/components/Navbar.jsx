@@ -7,7 +7,7 @@ import LogoFull from "../images/LogoFull.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#D9D9D9] lg:bg-[#ffffff]">
+    <nav className="bg-[#D9D9D9] lg:bg-[#f2f2f2]">
       <div
         className="w-full p-5 left-0 top-0
         md:w-[100%] md:px-[6rem]"

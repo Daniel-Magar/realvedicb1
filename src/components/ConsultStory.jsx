@@ -6,7 +6,7 @@ import polyshape3 from "../images/polyshape3.png";
 const ConsultStory = () => {
   return (
     <>
-      <section className="my-10 md:my-2 lg:my-5 ">
+      <section className="my-10 md:my-[2rem] lg:my-[5rem] ">
         <div className=" mx-[2rem] md:mx-[6rem] lg:mx-[6rem] flex flex-wrap  justify-center items-center">
           <div className="relative">
             <img
@@ -22,7 +22,7 @@ const ConsultStory = () => {
                 Consult our Vaidya
               </p>
             </div>
-            <p className="text-[12px] text-center lg:text-[16px]">
+            <p className="text-[12px] text-center lg:text-[20px]">
               Consult our team of experienced Doctors & Practitioners, to know
               more about your body and get the right guidance, to attain the
               path of holistic living.
@@ -30,7 +30,7 @@ const ConsultStory = () => {
           </div>
         </div>
       </section>
-      <section className="my-2 md:my-2 lg:my-5">
+      <section className="my-10 md:my-[2rem] lg:my-[5rem] ">
         <div className=" mx-[2rem] md:mx-[6rem] lg:mx-[6rem] flex flex-wrap  justify-center items-center ">
           <div className="relative">
             <img
@@ -46,7 +46,7 @@ const ConsultStory = () => {
                 Story
               </p>
             </div>
-            <p className="text-[12px] text-center lg:text-[16px] mb-10 mr-4">
+            <p className="text-[12px] text-center lg:text-[20px] mb-10 mr-4">
               Realvedic is a startup in the Holistic health and wellness space
               where we aim to bring positive changes in the modern lifestyle of
               the people with products and services curated based on traditional
