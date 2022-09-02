@@ -8,6 +8,7 @@ import BestSeller from "../components/BestSeller";
 import ConsultStory from "../components/ConsultStory";
 import Team from "../components/Team";
 import FollowUs from "../components/FollowUs";
+import Testimony from "../components/Testimony";
 
 const Main = () => {
   return (
@@ -21,6 +22,7 @@ const Main = () => {
       <ConsultStory />
       <Team />
       <FollowUs />
+      <Testimony />
     </div>
   );
 };
